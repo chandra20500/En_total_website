@@ -1,0 +1,29 @@
+.LoginPageHeading{
+    font-size : 3em;
+    color : #2F8D46;
+    font-family: 'Russo One', sans-serif;
+    margin: 20px auto 40px auto;
+}
+.LoginPageComtainer{
+    padding: 50px;
+    box-shadow: 5px 5px 5px 5px #bdb9b9;
+    text-align: center;    
+    position: relative;
+    width: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30vh;
+}
+@media only screen and (max-width: 600px) {
+    .LoginPageHeading{
+        font-size : 2em;
+    }
+    .LoginPageComtainer{
+        padding: 20px;
+        position: relative;
+        width: 75%;
+        left: 7.5%;
+        transform: translateX(0%);
+        top: 30vh;
+    }
+}
